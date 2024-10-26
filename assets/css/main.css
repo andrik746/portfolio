@@ -1500,7 +1500,6 @@
 	}
 	.c1 {
 		text-align: left;
-		font-size: 17px;
 	}
 	.minor {
 		font-size: 16px;
@@ -1536,11 +1535,6 @@
 		padding-top: 20px;
 
 	}
-	.tile.three {
-		/*background-image: url('../../images/skills.jpg');
-		background-size: cover;
-		background-position: center center;*/
-	}
 
 	/****************************PERSONAL SETTING***********************/
 	@media screen and (min-width: 1681px) {
@@ -1562,25 +1556,26 @@
 		}
 	}
 	@media screen and (max-width: 1280px) {
-	#intro {
-		height: 875px;
-	}
-	.tile{
+		#intro {
+			height: 875px;
+		}
+		.tile{
 			width: 33%;
 			height: 350px;
 			border-radius: 4px;
 			float:left;
 		}
-	.tile.one {
+		.tile.one {
 			margin-right: 0.5%;
 		}
-	.tile.two {
+		.tile.two {
 			line-height: 2.18em;
 			margin-right: 0.5%;
 			padding-right: 10px;
 			padding-top: 20px;
 
 		}
+		
 	}
 
 	@media screen and (max-width: 980px) {
