@@ -1471,6 +1471,12 @@
 
 /* Intro */
 
+	.video-presentation {
+		margin-bottom: 4em;
+		width: 800px;
+		height: 450px;
+	}
+
 	#intro {
 		padding: 4em 4em 2em 4em;
 		background-color: #ffffff;
@@ -1627,7 +1633,11 @@
 
 
 		@media screen and (max-width: 736px) {
-
+			.video-presentation {
+				margin-bottom: 2em;
+				width: 500px;
+				height: 281px;
+			}
 			#intro {
 				padding: 2em 2em 0.1em 2em;
 			}
@@ -1635,6 +1645,10 @@
 		}
 
 		@media screen and (max-width: 480px) {
+			.video-presentation {
+				width: 480px;
+				height: 270px;
+			}
 
 			#intro {
 				padding: 2em 1em 0.1em 1em;
